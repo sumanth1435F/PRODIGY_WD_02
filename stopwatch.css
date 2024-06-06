@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.stopwatch {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.controls {
+    display: inline;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.controls button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.laps li {
+    margin-bottom: 5px;
+}
+
+.laps li span:first-child {
+    font-weight: bold;
+}
+
+#start{
+    color:white;
+    background-color: green;
+}
+
+#stop{
+    color:white;
+    background-color: red;
+}
+
+#lap{
+    color: white;
+    background-color: black;
+}
+#reset{
+    color:white;
+    background-color: blue;
+}
